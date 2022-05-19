@@ -1,0 +1,86 @@
+table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+tr {
+    display: flex;
+}
+
+table a {
+    text-decoration: underline;
+    color: black;
+}
+
+table a:hover {
+    color: rgb(4, 103, 136);
+    font-weight: bold;
+}
+
+.table-headings,
+td {
+    padding: 10px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    flex: 1;
+    width: calc(100vw/6)
+}
+
+.table-headings:nth-child(5),
+td:nth-child(5) {
+    /* action */
+    flex: 0.5;
+}
+
+.table-headings:nth-child(4),
+td:nth-child(4) {
+    /* comment */
+    flex: 0.75;
+}
+
+.table-headings:nth-child(3),
+td:nth-child(3) {
+    /* author */
+    flex: 0.75;
+}
+
+.table-headings:nth-child(2),
+.itemUrl {
+    flex: 2;
+    flex-flow: row wrap;
+}
+
+tr:nth-child(even) {
+    background-color: gray;
+}
+
+.deleteOption {
+    cursor: pointer;
+}
+
+.deleteOption:hover {
+    color: rgb(195, 11, 11);
+    font-weight: bolder;
+}
+
+.table-headings {
+    background-color: lightgreen;
+    color: darkgreen;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.arrow-icon {
+    color: rgb(19, 105, 180);
+    margin-left: 20px;
+    font-size: 1.1rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.arrow-icon:hover {
+    color: black;
+}

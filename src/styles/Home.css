@@ -1,0 +1,31 @@
+.homeButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    width: 500px;
+    margin: auto;
+    height: 80vh;
+}
+
+.homeButtonContainer button {
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    margin: 50px;
+}
+
+.homeButtonContainer button:hover {
+    transform: scale(1.5);
+    background-color: black;
+    color: white;
+}
+
+.homeTitle {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
