@@ -1,0 +1,44 @@
+.homeButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(137, 43, 226, 0.271);
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 15px;
+    /* height: 80vh; */
+    cursor: default;
+}
+
+.linktags {
+    cursor: default;
+}
+
+.homeButtonContainer button {
+    padding: 20px;
+    border-radius: 15px;
+    transition: all 0.5s;
+    background-color: rgb(215, 206, 206);
+    color: rgb(28, 24, 24);
+    margin: 50px;
+    text-decoration: none;
+}
+
+.homeButtonContainer button:hover {
+    transform: scale(1.5);
+    background-color: rgb(28, 24, 24);
+    color: rgb(215, 206, 206);
+    cursor: pointer;
+}
+
+.homeTitle {
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    width: 20%;
+    margin-top: 100px;
+    color: rgb(71, 17, 71);
+    background-color: rgba(255, 255, 255, 0.511);
+    border-radius: 15px;
+}
