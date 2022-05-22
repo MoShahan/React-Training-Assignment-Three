@@ -1,10 +1,12 @@
 # Assignment Three
 
 ## This Project has two variants
-## You can access both variants from the home page
-## Variant1 == Has page numbers that will take you to different results
-## Variant2 == on scrolling , next page of results will be shown
-
+You can access both variants from the home page
+## Variant1
+Has page numbers that will take you to different results
+## Variant2
+On scrolling , next page of results will be shown
+## Commands
 ### `npm start`
 Runs the app in the development mode.
 

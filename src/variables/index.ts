@@ -1,0 +1,1 @@
+export const MAIN_API = "http://hn.algolia.com/api/v1/search?";
